@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="mklb/css/mklb.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    </div>
+    <!-- Home Page -->
+    <div class="home-page" id="container">
+        <div class="header">
+            <h1>Hover Home Button to Continue</h1>
+        </div>
+
+        <div class="menu">
+            <div class="item">
+                <h2>Contact</h2>
+                <a href="#" class="contactBTN"><i class="fa-solid fa-address-card"></i></a>
+            </div>
+            <div class="item">
+                <h2>About Me</h2>
+                <a href="#" class="aboutBTN"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="item center">
+                <h2>HOME</h2>
+                <a href="#"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="item">
+                <h2>Projects</h2>
+                <a href="#" class="projectBTN"><i class="fa-solid fa-table"></i></a>
+            </div>
+            <div class="item">
+                <h2>Work Experience</h2>
+                <a href="#" class="experienceBTN"><i class="fa-solid fa-briefcase"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- About Me Page -->
+    <div class="about-me" id="about-me">
+        <div class="button">
+            <button id="aboutToHome">Return Home Page<i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div class="title">
+            <h1>About Me</h1>
+            <span>About Me</span>
+        </div>
+
+        <div class="info">
+            <div class="left-side">
+                <h2>InformatIon about me</h2>
+                <p>I'm Emre Ates and I'm 23 years old. I am a full-time
+                    Front End Developer. I have good communication and team working
+                    skills. I am eager to learn and I'm a quick learner. I studied English for a while and
+                    progressed to the advanced level.</p>
+                <p>I love creating beautiful and functional websites .I developed myself on this path that I set out
+                    with the desire to open my website. I continue to improve myself every day.</p>
+            </div>
+            <div class="right-side">
+                <h2>MY SKILLS</h2>
+                <div class="skill-bars">
+
+                    <div class="skill">
+                        <p>Html5</p>
+                        <div class="skill-container">
+                            <p class="skill-text">85%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>css3</p>
+                        <div class="skill-container">
+                            <p class="skill-text">90%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Scss/sass</p>
+                        <div class="skill-container">
+                            <p class="skill-text">90%</p>
+                            <div class="progress">
+                                <span class="scss"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>JAVASCRIPT</p>
+                        <div class="skill-container">
+                            <p class="skill-text">60%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Jquery</p>
+                        <div class="skill-container">
+                            <p class="skill-text">60%</p>
+                            <div class="progress">
+                                <span class="jq"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Bootstrap</p>
+                        <div class="skill-container">
+                            <p class="skill-text">55%</p>
+                            <div class="progress">
+                                <span class="bs"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Python</p>
+                        <div class="skill-container">
+                            <p class="skill-text">60%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Django</p>
+                        <div class="skill-container">
+                            <p class="skill-text">40%</p>
+                            <div class="progress">
+                                <span class="django"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects Page -->
+    <div class="projects-page" id="projects-page">
+        <div class="button">
+            <button id="projectToHome">Return Home Page <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="title">
+            <h1>Projects</h1>
+            <span>Projects</span>
+        </div>
+        <div class="exp">
+            <h3>Here are a few projects I've done in various programming languages. You can scroll for other projects on the page. If you want to review my other
+                projects, you can check out my <a href="https://github.com/emresates" target="_blank">GitHub</a> profile.                
+            </h3>
+        </div>
+        <!-- Project-1 Netflix Home Page-->
+        <div class="project">
+            <div class="buttons">
+                <button class="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" viewBox="0 0 24 24"
+                        width="24">
+                        <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+                        <path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" />
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24"
+                        width="24">
+                        <g>
+                            <path d="M0,0h24v24H0V0z" fill="none" />
+                        </g>
+                        <g>
+                            <polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Netflix Home Page Design</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Css, Javascript</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/Netflix-Redesign" target="_blank"><i
+                                class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://netflix-home-design.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i> : LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/i4h899j.jpg" data-gallery="gal1">
+                <img class="mklbItem" src="https://i.hizliresim.com/gt2ni70.jpg" data-gallery="gal1">
+                <img class="mklbItem" src="https://i.hizliresim.com/nip55rz.jpg" data-gallery="gal1">
+                <img class="mklbItem" src="https://i.hizliresim.com/klt77yf.jpg" data-gallery="gal1">
+                <img class="mklbItem" src="https://i.hizliresim.com/sgl5vqj.jpg" data-gallery="gal1">
+                <img class="mklbItem" src="https://i.hizliresim.com/ha1rsod.jpg" data-gallery="gal1">
+                <img class="mklbItem" src="https://i.hizliresim.com/o3q5q8v.jpg" data-gallery="gal1">
+            </div>
+        </div>
+        <!-- Project-2 Netflix Categories Page-->
+        <div class="project">
+            <div class="buttons">
+                <button class="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" viewBox="0 0 24 24"
+                        width="24">
+                        <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+                        <path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" />
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24"
+                        width="24">
+                        <g>
+                            <path d="M0,0h24v24H0V0z" fill="none" />
+                        </g>
+                        <g>
+                            <polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Netflix Categories Page</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Css, Javascript</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/netflix-categories" target="_blank"><i
+                                class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://netflix-categories.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i> : LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/cp2rpgk.jpg" data-gallery="gal2">
+                <img class="mklbItem" src="https://i.hizliresim.com/rkqzi7r.jpg" data-gallery="gal2">
+                <img class="mklbItem" src="https://i.hizliresim.com/1uq2ibu.jpg" data-gallery="gal2">
+                <img class="mklbItem" src="https://i.hizliresim.com/d8si5zj.jpg" data-gallery="gal2">
+                <img class="mklbItem" src="https://i.hizliresim.com/n7o70dx.jpg" data-gallery="gal2">
+                <img class="mklbItem" src="https://i.hizliresim.com/68kw4e2.jpg" data-gallery="gal2">
+                <img class="mklbItem" src="https://i.hizliresim.com/rmt2kij.jpg" data-gallery="gal2">
+            </div>
+        </div>
+        <!-- Project-3 Netflix Episodes Page -->
+        <div class="project">
+            <div class="buttons">
+                <button class="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" viewBox="0 0 24 24"
+                        width="24">
+                        <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+                        <path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" />
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24"
+                        width="24">
+                        <g>
+                            <path d="M0,0h24v24H0V0z" fill="none" />
+                        </g>
+                        <g>
+                            <polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Netflix Episodes Page</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Scss, Javascript</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/netflix-episodes-page" target="_blank"><i
+                                class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://netflix-episodes-page.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i> : LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/ft4jp5e.jpg" data-gallery="gal3">
+                <img class="mklbItem" src="https://i.hizliresim.com/4arlnzu.jpg" data-gallery="gal3">
+                <img class="mklbItem" src="https://i.hizliresim.com/a0mwexe.jpg" data-gallery="gal3">
+                <img class="mklbItem" src="https://i.hizliresim.com/hjarz6f.jpg" data-gallery="gal3">
+                <img class="mklbItem" src="https://i.hizliresim.com/cuprqiu.jpg" data-gallery="gal3">
+                <img class="mklbItem" src="https://i.hizliresim.com/evloflr.jpg" data-gallery="gal3">
+                <img class="mklbItem" src="https://i.hizliresim.com/hnomm8s.jpg" data-gallery="gal3">
+            </div>
+        </div>
+        <!-- Project-4 Winter Resort Page -->
+        <div class="project">
+            <div class="buttons">
+                <button class="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" viewBox="0 0 24 24"
+                        width="24">
+                        <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+                        <path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" />
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24"
+                        width="24">
+                        <g>
+                            <path d="M0,0h24v24H0V0z" fill="none" />
+                        </g>
+                        <g>
+                            <polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Winter Resort Page</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Scss, Javascript</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/Reindeer" target="_blank"><i
+                                class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://reindeer-home.netlify.app/" target="_blank"><i class="fa-solid fa-globe"></i> :
+                            LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/ld841wv.jpg" data-gallery="gal4">
+                <img class="mklbItem" src="https://i.hizliresim.com/l5765lx.jpg" data-gallery="gal4">
+                <img class="mklbItem" src="https://i.hizliresim.com/7odov04.jpg" data-gallery="gal4">
+                <img class="mklbItem" src="https://i.hizliresim.com/qcfko9a.jpg" data-gallery="gal4">
+                <img class="mklbItem" src="https://i.hizliresim.com/qzvelqs.jpg" data-gallery="gal4">
+                <img class="mklbItem" src="https://i.hizliresim.com/toxx059.jpg" data-gallery="gal4">
+                <img class="mklbItem" src="https://i.hizliresim.com/liinckr.jpg" data-gallery="gal4">
+            </div>
+        </div>
+        <!-- Project-5 Food Page -->
+        <div class="project">
+            <div class="buttons">
+                <button class="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" viewBox="0 0 24 24"
+                        width="24">
+                        <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+                        <path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" />
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24"
+                        width="24">
+                        <g>
+                            <path d="M0,0h24v24H0V0z" fill="none" />
+                        </g>
+                        <g>
+                            <polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Netflix Home</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Scss, Javascript</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/food-page" target="_blank"><i
+                                class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://food-page-variety.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i> : LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/29zgefb.jpg" data-gallery="gal5">
+                <img class="mklbItem" src="https://i.hizliresim.com/iqnq1rp.jpg" data-gallery="gal5">
+                <img class="mklbItem" src="https://i.hizliresim.com/plmdyy8.jpg" data-gallery="gal5">
+                <img class="mklbItem" src="https://i.hizliresim.com/ovltogo.jpg" data-gallery="gal5">
+                <img class="mklbItem" src="https://i.hizliresim.com/ek7fi9d.jpg" data-gallery="gal5">
+            </div>
+        </div>
+        <!-- Project-6 Cinema Blog Page -->
+        <div class="project">
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Cinema Blog Page</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Css</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/Cinema-Blog-Main-Page" target="_blank"><i
+                                class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://cinema-blog.netlify.app/" target="_blank"><i class="fa-solid fa-globe"></i> :
+                            LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/f2so25w.jpg" data-gallery="gal6">
+                <img class="mklbItem" src="https://i.hizliresim.com/7c55wqu.jpg" data-gallery="gal6">
+                <img class="mklbItem" src="https://i.hizliresim.com/4r3phmf.jpg" data-gallery="gal6">
+                <img class="mklbItem" src="https://i.hizliresim.com/epj4j5a.jpg" data-gallery="gal6">
+            </div>
+        </div>
+        <!-- Project-7 Fashion Page -->
+        <div class="project">
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Fashion Page</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Css</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/iconic-fashion-page-design" target="_blank"><i
+                                class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://iconic-fashion.netlify.app/" target="_blank"><i class="fa-solid fa-globe"></i> :
+                            LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/7b7xigz.jpg" data-gallery="gal7">
+                <img class="mklbItem" src="https://i.hizliresim.com/ivbhjqt.jpg" data-gallery="gal7">
+                <img class="mklbItem" src="https://i.hizliresim.com/9lapzhw.jpg" data-gallery="gal7">
+                <img class="mklbItem" src="https://i.hizliresim.com/41k5r7a.jpg" data-gallery="gal7">
+            </div>
+        </div>
+        <!-- Project-8 Login-Sign Up Form -->
+        <div class="project">
+            <div class="project-details">
+                <div class="project-name">
+                    <h1>Login-Sign Up Form</h1>
+                </div>
+                <div class="languages">
+                    <h3>Html, Css, Javascript</h3>
+                </div>
+                <div class="links">
+                    <p><a href="https://github.com/emresates/Login-Sign-Up-Form" target="_blank"><i class="fa-brands fa-github"></i> : GITHUB</a></p>
+                    <p><a href="https://login-signup-page-form.netlify.app/" target="_blank"><i class="fa-solid fa-globe"></i> : LIVE</a></p>
+                </div>
+            </div>
+
+            <div class="photo-gallery">
+                <img class="mklbItem" src="https://i.hizliresim.com/k14kol5.jpg" data-gallery="gal8">
+                <img class="mklbItem" src="https://i.hizliresim.com/7metiux.jpg" data-gallery="gal8">
+                <img class="mklbItem" src="https://i.hizliresim.com/5hyc7xw.jpg" data-gallery="gal8">
+                <img class="mklbItem" src="https://i.hizliresim.com/iklwzo3.jpg" data-gallery="gal8">
+            </div>
+        </div>
+    </div>
+    <!-- Contact Page -->
+    <div class="contact-page">
+        <div class="title">
+            <h1>Contact</h1>
+            <span>Contact</span>
+        </div>
+
+        <div class="button" id="contactToHome"><button><i class="fa-solid fa-arrow-up"></i>Return Home Page</button>
+        </div>
+        <div class="information">
+            <div class="left-side">
+                <h3>You can contact me using the ways here.</h3>
+                <div class="contact-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Location</span>
+                    </div>
+                    <p>: Istanbul / Turkey</p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </div>
+                    <p>: <a href="mailto:emresates@outlook.com">emresates@outlook.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Mobile Number</span>
+                    </div>
+                    <p>: <a href="tel:+905530097545">+90 553 009 75 45</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-earth-europe"></i>
+                        <span>Languages</span>
+                    </div>
+                    <p>: English (Advanced)</p>
+                    <p>Turkish (Native)</p>
+                </div>
+
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+
+            </div>
+
+            <div class="right-side">
+                <form action="">
+                    <input class="name" type="text" placeholder="Your Name">
+                    <input class="mail" type="email" placeholder="Your Email">
+                    <input class="subj" type="text" placeholder="Subject">
+                    <textarea placeholder="Your Text"></textarea>
+                    <input class="submit" type="submit" value="Submit" placeholder="Message Here">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Experience Page -->
+    <div class="experience-page">
+
+        <div class="button" id="experienceToHome">
+            <button><i class="fa-solid fa-arrow-left"></i>Return Home Page</button>
+        </div>
+
+        <video id="video" autoplay muted loop>
+            <source src="/imgs/2.mp4" type="video/mp4">
+        </video>
+        <div class="title">
+            <h1>My Work Experience</h1>
+        </div>
+
+        <video id="video-main" autoplay muted>
+            <source src="/imgs/main.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    </div>
+    <script src="mklb/js/mklb.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
